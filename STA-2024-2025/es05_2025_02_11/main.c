@@ -3,7 +3,7 @@
 
 
 int main(int argv, char** argc) {
-    char str1[7] = "Ciao, ";  
+    char str1[14] = "Ciao, ";  
     char str2[7] = "mondo!";
 
     strcat(str1, str2);
