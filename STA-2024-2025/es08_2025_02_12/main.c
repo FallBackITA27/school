@@ -21,7 +21,7 @@ int main(int argv, char** argc) {
     } 
 
     printf("I due nomi sono ");
-    if (strcmp(str1, str2)) {
+    if (strcmp(str1, str2)==0) {
         printf("uguali");
     } else {
         printf("diversi");
