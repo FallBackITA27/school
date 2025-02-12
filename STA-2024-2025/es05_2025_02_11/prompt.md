@@ -1,6 +1,6 @@
 ## IT
 Un programma che:
-- Concatena due stringhe e stampa una singola variabile stringa
+- Copia una stringa data in input
 ## EN
 A program that:
-- Concatenates two strings and prints a single string variable
+- Copies an string given in input

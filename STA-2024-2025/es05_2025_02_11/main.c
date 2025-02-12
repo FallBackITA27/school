@@ -3,11 +3,17 @@
 
 
 int main(int argv, char** argc) {
-    char str1[14] = "Ciao, ";  
-    char str2[7] = "mondo!";
+    char str1[255] = "";  
+    char str2[255] = "";
+    
+	printf("Questo programma copia una stringa data in input.\n-- Massanova\n\n");
 
-    strcat(str1, str2);
-    printf("Stringa concatenata: %s\n", str1);
+    printf("Inserisci la stringa\n >> ");
+    gets(str2);
+
+    strcpy(str1, str2);
+    
+    printf("Stringa copiata: %s\n", str2);
 
 	return 0;
 }
