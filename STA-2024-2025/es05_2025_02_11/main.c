@@ -13,7 +13,7 @@ int main(int argv, char** argc) {
 
     strcpy(str1, str2);
     
-    printf("Stringa copiata: %s\n", str2);
+    printf("Stringa copiata: %s\n", str1);
 
 	return 0;
 }
