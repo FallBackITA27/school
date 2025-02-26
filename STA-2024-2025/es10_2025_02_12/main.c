@@ -1,4 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+
+// TODO: Finish. I never completed this.
 
 void calcTriang() {
     float a, b, l2, l3;
@@ -49,7 +53,7 @@ int main(int argv, char** argc) {
     printf("    3. Perimetro e area triangolo\n");
     printf("    4. Circonferenza e area del cerchio\n >> ");
     scanf("%d", selection);
-    clrscr();
+    system("clear");
 
     switch (selection)
     {
@@ -62,9 +66,8 @@ int main(int argv, char** argc) {
         calcTriang();
         break;
     case 4:
-        calcCircle()
+        calcCircle();
         break;
-    
     default:
         break;
     }

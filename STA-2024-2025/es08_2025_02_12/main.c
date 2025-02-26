@@ -13,18 +13,11 @@ int main(int argv, char** argc) {
     printf("Dammi un altro nome\n >> ");
     gets(str2);
 
-    for (int i = 0; i < strlen(str1); i++) {
-        tolower(str1[i]);
-    } 
-    for (int i = 0; i < strlen(str1); i++) {
-        tolower(str2[i]);
-    } 
-
-    printf("I due nomi sono ");
+    printf("I due nomi hanno lunghezze ");
     if (strcmp(str1, str2)==0) {
-        printf("uguali");
+        printf("uguali\n");
     } else {
-        printf("diversi");
+        printf("diversi\n");
     }
 
 	return 0;

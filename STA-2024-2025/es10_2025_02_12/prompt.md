@@ -1,3 +1,4 @@
+# Prompt
 ## IT
 Un programma che:
 - Stampa un menu di selezione con:
@@ -15,3 +16,8 @@ A program that:
     4. Circumference and area of a circle
 - Calculate according to the selection.
 
+# Note
+## IT
+Non l'ho mai finito
+## EN
+I didn't manage to finish it

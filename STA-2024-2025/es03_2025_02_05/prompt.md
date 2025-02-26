@@ -1,3 +1,4 @@
+# Prompt
 ## IT
 Un programma che:
 - Chieda in input base e altezza e calcoli l'area d'un triangolo

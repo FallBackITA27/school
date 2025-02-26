@@ -1,3 +1,4 @@
+# Prompt
 ## IT
 Un programma che:
 - Prende il tuo nome e cognome SIA con `gets()` che `scanf()`
