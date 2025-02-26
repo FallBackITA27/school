@@ -3,15 +3,9 @@
 Un programma che:
 - Crea un array di lunghezza 100.
 - Prenda i valori in input
-- Trovi il massimo e il minimo valore.
+- Smisti i valori pari in un array e dispari in un altro.
 ## EN
 A program that:
 - Creates an array with length 100.
 - Takes its values in input.
-- Finds the maximum and minimum values.
-
-# Note
-## IT
-Assente a lezione
-## EN
-TODO: Absent to the lesson
+- Divides up odd and even values in separate arrays.
