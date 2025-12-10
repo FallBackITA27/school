@@ -1,0 +1,25 @@
+#inputs {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+#tabelline,
+td,
+tr {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    padding: 20px;
+    text-align: center;
+}
+
+tr:nth-child(2n-1) > td:nth-child(2n-1),
+tr:nth-child(2n) > td:nth-child(2n) {
+    background: #3dd;
+}
+
+tr:nth-child(1) > td,
+tr > :nth-child(1) {
+    background: #d3d !important;
+}

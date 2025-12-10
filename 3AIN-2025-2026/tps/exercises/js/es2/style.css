@@ -1,0 +1,24 @@
+/* Diego Massanova 3AIN */
+
+#calcolatrice,
+td,
+tr {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    padding: 20px;
+    text-align: center;
+}
+
+#calcolatrice td {
+    cursor: pointer;
+}
+
+#calcolatrice td:hover {
+    background-color: #ddd;
+}
+
+#calcolatrice #res {
+    cursor: initial;
+    background-color: initial;
+    pointer-events: none;
+}
