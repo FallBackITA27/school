@@ -1,0 +1,62 @@
+:root {
+    --inputWidth: 45px;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: min-content min-content auto;
+    grid-template-rows: min-content min-content auto;
+    gap: 10px;
+    justify-content: center;
+}
+
+#quantityRequests, #matrix, #rowControl {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#quantityAvailable, #matrix, #colControl {
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#colControl, #rowControl, #quantityRequests {
+    display: flex;
+    gap: 0;
+    align-items: flex-start;
+}
+
+#rowControl {
+    gap: 2;
+    grid-row-start: 3;
+    grid-row-start: 4;
+}
+
+#colControl {
+    gap: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#colControl, #quantityAvailable {
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.matrixInput, .availableInput, .requestInput {
+    width: var(--inputWidth);
+}
+
+#upload {
+    cursor: pointer;
+    width: 30px;
+    aspect-ratio: 1/1;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-start: 4;
+}

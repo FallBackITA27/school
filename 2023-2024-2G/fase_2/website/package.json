@@ -1,0 +1,24 @@
+{
+    "dependencies": {
+        "bcrypt": "^5.1.1",
+        "express": "^4.21.1",
+        "fs": "^0.0.1-security",
+        "npx": "^10.2.2",
+        "prettier": "^3.3.3"
+    },
+    "name": "stafase2_massanova",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "fmt": "npx prettier .  --check --write"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "printWidth": 100
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
+}
