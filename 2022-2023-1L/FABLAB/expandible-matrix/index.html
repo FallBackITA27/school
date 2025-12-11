@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Matrice</title>
+</head>
+<body>
+    <h1>Matrice espandibile in due dimensioni</h1>
+    <div id="main">
+        <div id="quantityRequests">
+            <input type="number" max="9999" class="requestInput" placeholder="D1">
+        </div>
+        <div id="quantityAvailable">
+            <input type="number" max="9999" class="requestInput" placeholder="S1">
+        </div>
+        <div id="matrix">
+            <div class="row">
+                <input type="number" max="9999" class="matrixInput">
+                <!-- Numeri oltre le 5 cifre potrebbero essere confusi per numeri a 4 cifre,
+                    se si modifica il max consiglio di rendere il width 60 per 5, forse 6 cifre. --FalB -->
+            </div>
+        </div>
+        <div id="colControl">
+            <button id="colAdd">+</button>
+            <button id="colRemove">-</button>
+        </div>
+        <div id="rowControl">
+            <button id="rowAdd">+</button>
+            <button id="rowRemove">-</button>
+        </div>
+        <img id="upload" src="https://cdn-icons-png.flaticon.com/512/5610/5610930.png" alt="Immagine di Upload">
+        <!-- Da cambiare l'src ^ -->
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
