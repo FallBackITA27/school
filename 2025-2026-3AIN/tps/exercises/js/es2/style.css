@@ -1,15 +1,20 @@
 /* Diego Massanova 3AIN */
 
+#calcolatrice {
+    margin: 100px auto;
+}
+
 #calcolatrice,
 td,
 tr {
     border-collapse: collapse;
     border: 1px solid #000;
-    padding: 20px;
     text-align: center;
 }
 
 #calcolatrice td {
+    min-width: 60px;
+    padding: 40px;
     cursor: pointer;
 }
 
