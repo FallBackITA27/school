@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pass Generator</title>
+        <script src="./script.js" defer async></script>
+    </head>
+    <body>
+        <label for="max" min="4">Max Len</label>
+        <input type="number" id="max" />
+        <br />
+        <label for="min">Min Len</label>
+        <input type="number" min="4" id="min" />
+        <br />
+        <label for="upperChars">Caratteri Maiuscoli</label>
+        <input type="checkbox" id="upperChars" />
+        <br />
+        <label for="lowerChars">Caratteri Minuscoli</label>
+        <input type="checkbox" id="lowerChars" />
+        <br />
+        <label for="numberChars">Caratteri Numerici</label>
+        <input type="checkbox" id="numberChars" />
+        <br />
+        <label for="specialChars">Caratteri Speciali</label>
+        <input type="checkbox" id="specialChars" />
+        <br />
+        <input type="text" readonly id="password" />
+        <br />
+        <button id="generate">Genera</button>
+    </body>
+</html>
